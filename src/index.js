@@ -10,7 +10,7 @@ import Node from './components/Node';
 
 function Root() {
     return(
-        <Router basename="/NEWSMAN-React-Web-App/">
+        <Router basename="/NewsMan-React-App/">
             <div>
                 <Navbar className="bg-light">
                     <Navbar.Brand>
