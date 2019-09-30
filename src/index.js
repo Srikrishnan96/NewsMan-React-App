@@ -5,8 +5,10 @@ import './index.css';
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import Javascript from './components/Javascript';
+import Reactjs from './components/React';
 import Node from './components/Node';
+import MongoDB from './components/MongoDB';
+import Express from './components/Express';
 
 function Root() {
     return(
@@ -23,7 +25,13 @@ function Root() {
                                 <NavLink exact to="/" actionClassName="active">Home</NavLink>
                             </NavItem>
                             <NavItem className="ml-3">
-                                <NavLink to="/javascript" actionClassName="active">Javascript</NavLink>
+                                <NavLink to="/mongodb" actionClassName="active">MongoDB</NavLink>
+                            </NavItem>
+                            <NavItem className="ml-3">
+                                <NavLink to="/express" actionClassName="active">Express</NavLink>
+                            </NavItem>
+                            <NavItem className="ml-3">
+                                <NavLink to="/react" actionClassName="active">React</NavLink>
                             </NavItem>
                             <NavItem className="ml-3">
                                 <NavLink to="/node" actionClassName="active">Node</NavLink>
@@ -33,8 +41,10 @@ function Root() {
                 </Navbar>
                 
                 <Route path="/" exact component={App}/>
-                <Route path="/javascript" component={Javascript}/>
+                <Route path="/react" component={Reactjs}/>
                 <Route path="/node" component={Node}/>
+                <Route path="/mongodb" component={MongoDB}/>
+                <Route path="/express" component={Express}/>
 
             </div>
         </Router>
