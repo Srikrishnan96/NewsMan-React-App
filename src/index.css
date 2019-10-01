@@ -4,11 +4,7 @@ body {
   font-family: sans-serif;
 }
 .jumbotron {
-<<<<<<< HEAD
-  background: rgb(223, 127, 127);
-=======
   background: rgb(217,83,79);
->>>>>>> 058857c6aa9f0c78147c5593188fb5aa39b27ace
   width: 100%;
   border-radius: 0;
 }
