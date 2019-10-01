@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+### Live on https://srikrishnan96.github.io/NewsMan-React-App/
 # NEWSMAN - A Web app fetching data from Hacker Noon API
 ## public -> index.html
 root rendering happens at this page 
