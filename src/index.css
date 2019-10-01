@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
 }
 .jumbotron {
-  background: linear-gradient(to right, rgb(223, 127, 127), rgb(230, 230, 134));
+  background: rgb(223, 127, 127);
   width: 100%;
   border-radius: 0;
 }
