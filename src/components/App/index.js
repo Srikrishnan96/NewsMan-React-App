@@ -5,21 +5,6 @@ import Table from '../Table/index';
 import { Button, Loading } from '../Button/index';
 import Search from '../Search/index';
 
-// HIGHER ORDER 
-// const withLoading = (Component) => ({isLoading, ...rest}) =>
-//   isLoading?<Loading /> : <Component {...rest} />
-
-// const ButtonWithLoading = withLoading(Button);
-
-// function updateTopStories(hits, page) {
-//   return function(prevState)  {
-//     const { searchKey, results } = prevState;
-//     const oldHits = results &&  results[searchKey] ? results[searchKey].hits : [];
-//     const updatedHits = [...oldHits, ...hits]
-//     return {results:{ ...results, [searchKey]: {hits: updatedHits, page}}, isLoading: false}
-//   }
-// }
-
 class App extends Component {
   constructor(props) {
     super(props);
@@ -50,7 +35,6 @@ class App extends Component {
     }
   }
 
-  // Sorting
   onSort(sortKey) {
     const isSortReverse = this.state.sortKey === sortKey && !this.state.isSortReverse;
     this.setState({ sortKey, isSortReverse })
@@ -60,13 +44,11 @@ class App extends Component {
     return !this.state.results[searchTerm];
   }
 
-  //Setting stories
   setTopStories(result) {
     const {hits, page} = result;
     this.setState(App.updateTopStories(hits, page));
   }
 
-  //Fetching from API
   fetchTopStories(searchTerm, page) {
     this.setState({isLoading: true});
     fetch(`${PATH_BASE}${PATH_SEARCH}?${PARAM_SEARCH}${searchTerm}&${PARAM_PAGE}${page}&${PARAM_HPP}${DEFAULT_HPP}`)
@@ -80,7 +62,6 @@ class App extends Component {
     this.fetchTopStories(searchTerm, DEFAULT_PAGE);
   }
 
-  // search (on server side) submit function
   onSubmit(event) {
     const {searchTerm} = this.state;
     this.setState({searchKey: searchTerm});
@@ -115,7 +96,7 @@ class App extends Component {
     const ButtonWithLoadingg = App.Loading(Button);
     return (
       <div className="App">
-        {this.props.notHome?
+        {this.props.searchTerm?
         '':<Row>
             <div className="jumbotron">
               <Search className="justify-content-md-center" onChange={this.searchValue} value={searchTerm} onSubmit={this.onSubmit}> NEWS MAN </Search>

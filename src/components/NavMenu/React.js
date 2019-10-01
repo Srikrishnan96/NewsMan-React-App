@@ -2,7 +2,7 @@ import React from 'react';
 import App from '../App';
 
 function Reactjs() {
-  return <App searchTerm={"React"} notHome={true}/>
+  return <App searchTerm={"React"}/>
 }
 
 export default Reactjs;
