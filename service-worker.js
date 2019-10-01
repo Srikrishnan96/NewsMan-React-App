@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NewsMan-React-App/precache-manifest.efe6b9db5f32381b66cf545113e88ccb.js"
+  "/NewsMan-React-App/precache-manifest.89da4b80ba8ff17c0a69704a93948de1.js"
 );
 
 self.addEventListener('message', (event) => {
