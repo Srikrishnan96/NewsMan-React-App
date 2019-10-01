@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NewsMan-React-App/static/css/main.e13cea55.chunk.css",
-    "main.js": "/NewsMan-React-App/static/js/main.f5eb461c.chunk.js",
-    "main.js.map": "/NewsMan-React-App/static/js/main.f5eb461c.chunk.js.map",
+    "main.js": "/NewsMan-React-App/static/js/main.8f80251e.chunk.js",
+    "main.js.map": "/NewsMan-React-App/static/js/main.8f80251e.chunk.js.map",
     "runtime~main.js": "/NewsMan-React-App/static/js/runtime~main.cd1551bd.js",
     "runtime~main.js.map": "/NewsMan-React-App/static/js/runtime~main.cd1551bd.js.map",
-    "static/js/2.f1572bd7.chunk.js": "/NewsMan-React-App/static/js/2.f1572bd7.chunk.js",
-    "static/js/2.f1572bd7.chunk.js.map": "/NewsMan-React-App/static/js/2.f1572bd7.chunk.js.map",
+    "static/js/2.f9a0895c.chunk.js": "/NewsMan-React-App/static/js/2.f9a0895c.chunk.js",
+    "static/js/2.f9a0895c.chunk.js.map": "/NewsMan-React-App/static/js/2.f9a0895c.chunk.js.map",
     "index.html": "/NewsMan-React-App/index.html",
-    "precache-manifest.89da4b80ba8ff17c0a69704a93948de1.js": "/NewsMan-React-App/precache-manifest.89da4b80ba8ff17c0a69704a93948de1.js",
+    "precache-manifest.087f358715cabe5b042059e6e31cbe2b.js": "/NewsMan-React-App/precache-manifest.087f358715cabe5b042059e6e31cbe2b.js",
     "service-worker.js": "/NewsMan-React-App/service-worker.js",
     "static/css/main.e13cea55.chunk.css.map": "/NewsMan-React-App/static/css/main.e13cea55.chunk.css.map"
   }
