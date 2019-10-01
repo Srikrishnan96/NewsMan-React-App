@@ -13,7 +13,7 @@ class Search extends Component {
       return (
         <form onSubmit={onSubmit}>
           <FormGroup>
-            <h1 className="text-center">{children}</h1><hr style={{border: '2px solid black', width: '100px'}}/>
+            <h1 className="text-center text-white">{children}</h1><hr style={{border: '2px solid white', width: '200px'}}/>
   
             <div className="input-group">
               <input className="form-control width100 searchForm" type="text" onChange={onChange} value={value} ref={(node) => {this.input = node}}/>

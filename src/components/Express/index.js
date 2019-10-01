@@ -19,13 +19,13 @@ function updateTopStories(hits, page) {
   }
 }
 
-class Javascript extends Component {
+class Express extends Component {
   constructor(props) {
     super(props);
     this.state = {
       results: null,
       searchKey: '',
-      searchTerm: 'Javascript',
+      searchTerm: 'Express.js',
       isLoading: false,
     }
     this.fetchTopStories = this.fetchTopStories.bind(this);
@@ -34,7 +34,6 @@ class Javascript extends Component {
     this.removeItem = this.removeItem.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
     this.onSort = this.onSort.bind(this);
-
   }
 
   onSort(sortKey) {
@@ -116,5 +115,5 @@ class Javascript extends Component {
   }
 }
 
-export default Javascript;
+export default Express;
 

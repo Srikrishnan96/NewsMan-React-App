@@ -4,7 +4,11 @@ body {
   font-family: sans-serif;
 }
 .jumbotron {
+<<<<<<< HEAD
   background: rgb(223, 127, 127);
+=======
+  background: rgb(217,83,79);
+>>>>>>> 058857c6aa9f0c78147c5593188fb5aa39b27ace
   width: 100%;
   border-radius: 0;
 }
@@ -12,11 +16,11 @@ body {
   width: 100%;
 }
 .searchForm {
-  height: 80px;
+  height: 60px;
   font-size: 50px;
 }
 .searchButton {
-  height: 80px;
+  height: 60px;
   width: 200px;
 }
 .sortBtn {
