@@ -5,10 +5,10 @@ import './index.css';
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
-import Reactjs from './components/React';
-import Node from './components/Node';
-import MongoDB from './components/MongoDB';
-import Express from './components/Express';
+import Reactjs from './components/NavMenu/React';
+import Node from './components/NavMenu/Node';
+import MongoDB from './components/NavMenu/MongoDB';
+import Express from './components/NavMenu/Express';
 
 function Root() {
     return(
