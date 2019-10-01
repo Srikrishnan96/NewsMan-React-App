@@ -1,7 +1,9 @@
 ### Live on https://srikrishnan96.github.io/NewsMan-React-App/
 GitHub deployment 
-```npm run build
-npm run deploy```
+```
+npm run build
+npm run deploy
+```
 
 # NEWSMAN - A Web app fetching data from Hacker Noon API
 
